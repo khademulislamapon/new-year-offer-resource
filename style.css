@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+header, main{
+    max-width: 1320px;
+    margin: 0 auto; 
+}
+
+.header-section{
+    background-image: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    height: 600px;
+    margin-top: 50px;
+}
+.header-content{
+    width: 632px;
+    height: 246px;
+    padding-top: 177px;
+    margin: 0 auto;
+}
+.header-content h2{
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+.header-content h1{
+    font-size: 72px;
+    color: #FFFFFF;
+    font-weight: 900px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+/* offer-section */
+.offer-section{
+    padding: 120px 0;
+    text-align: center;
+}
+.offer-section h2{
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 88px;
+    font-family: "Inter", sans-serif;
+}
+
+.offer-content p{
+    color: #FF0000;
+    font-weight: 500px;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+}
+.offer-section h3{
+    color: #070211;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+}
+
+.offer-img{}
+.offer-img img{
+    width: 802px;
+    height: 500px;
+}
+/* Welcome */
+.Welcome{
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1320px;
+    height: 600px;
+}
+.welcome-contener{
+    max-width: 1056px;
+    height: 464px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 68px;
+}
+.content-text{
+    height: 600px;
+    max-width: 1320px;
+    padding-top: 57px;
+}
+.content-text h2{
+    color: white;
+    font-weight: bolder;
+    font-size: 64px;
+    font-family: "Merriweather", serif;
+    width: 642px;
+}
+.content-text p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    width: 697px;
+}
+.content-button{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+/* join-section */
+.join-section{
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    /* margin: 120px 0px; */
+}
+.join-contener{
+    width: 549px;
+    height: 272px;
+    margin: 120px auto;
+    padding: 100px 0;
+    text-align: center;
+}
+.join-contener h4{
+    font-size: 32px;
+    font-weight: 600px;
+    color: #070211;
+}
+.join-contener h4 span{
+    color: #FF0000;
+}
+.join-contener a{}
+.join-contener a button{
+    color: #FFFFFF;
+    background-color: #FF0000;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 16px 32px;
+    border: none;
+}
+/* new-best-offer */
+
+#nbo-section{
+    max-width: 1320px;
+    height: 463px;
+    padding: 120px 0;
+    font-family: "Inter", sans-serif;
+}
+.new-best-offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* p1 */
+.new-offer-container{}
+
+.new-offer-container h4{
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 500px;
+}
+.new-offer-container h3{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    color: #070211;
+    font-weight: 900px;
+}
+.new-offer-container p{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    width: 393px;
+    height: 128px;
+}
+
+/* p2 */
+.circle-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 463px; /* Adjust the size as needed */
+    height: 463px; /* Adjust the size as needed */
+    border-radius: 50%;
+    border: 15px solid red; /* Adjust the border size and color */
+    overflow: hidden;
+    padding: 50px;
+}
+.circle-container img{
+    width: 364px;
+    height: 364px;
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    border-radius: 50%;
+    
+}
+
+/* p3 */
+.rmain-container{
+    width: 276px;
+    height: 353px;
+}
+
+.ryear-container{
+    padding-bottom: 43px;
+}
+.ryear-container h4{
+    font-size: 48px;
+    color: #FF0000;
+    font-weight: bold;
+}
+.ryear-container p{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.rimg-container{}
+.rimg-container img{}
+
+/* holidays-sale */
+#holidays-sale-section{}
+.holiday-sale{
+    padding-top: 120px;
+}
+
+.holiday-sale-content{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1068px;
+    height: 260px;
+}
+.holiday-sale-content h5{
+    font-size: 24px;
+    color: #070211;
+    font-weight: 500px;
+}
+.holiday-sale-content h2{
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    color: #070211;
+    font-weight: bold;
+}
+.holiday-sale-content h2 span{
+    color: #FF0000;
+}
+.holiday-sale-content p{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    font-weight: 500px;
+    font-family: "Inter", sans-serif;
+    max-width: 1068px;
+    height: 96px;
+}
+.background-img{
+    background-image: url("images/Group 44.png"), url("images/Group 75.png"), url("images/Rectangle 2.png");
+    background-repeat: no-repeat;
+    background-position: right center, bottom left, bottom;
+    max-width: 1320px;
+    height: 900px;
+}
+
+/* gift section */
+
+.gift-section{
+    width: 1320px;
+    height: 1163px;
+}
+.gift-contener{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.gift-content{}
+.gift-content h3{
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 500px;
+}
+.gift-content h2{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    color: #070211;
+    font-weight: bolder;
+}
+.gift-content p{
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+    max-width: 896px;
+    height: 64px;
+}
+
+.gift-img{
+    flex-wrap: wrap;
+}
+.gift-img img{
+    gap: 24px;
+    width: 424px;
+    height: 450px;
+}
+/* subscribe newsletter */
+
+#newsletter-section{}
+.newsletter-contener{
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    max-width: 1320px;
+    height: 616px;
+}
+
+.newsletter-content{
+    max-width: 896px;
+    height: 336px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.newsletter-content h2{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    color: #070211;
+    font-weight: bolder;
+}
+.newsletter-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+}
+
+.content-img{}
+.content-img img{}
+
+.newsletter-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.newsletter-form input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px 0 0 30px;
+    outline: none;
+    font-size: 16px;
+    width: 250px;
+}
+.newsletter-form button{
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border-radius: 0 30px 30px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+/* footer-contener */
+#footer-contener{
+    background-color: #070211;
+    height: 609px;
+    margin-top: 120px;
+}
+.footer-section{
+    max-width: 1320px;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 1185px;
+    height: 80px;
+    padding: 120px 0 50px;
+}
+.content-p{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500px;
+}
+.content-a{}
+.content-a a{
+    text-decoration: none;
+}
+.content-a p{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+.co-si{
+    text-align: center;
+}
+.content-si{}
+.content-si hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.content-si a{
+    display: inline-block;
+    text-align: center;
+    padding: 48px 24px;
+}
+
+.content-but{
+    display: flex;
+    justify-content: space-between;
+}
+.content-but h5{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500px;
+}
+
