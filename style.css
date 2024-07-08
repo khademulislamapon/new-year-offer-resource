@@ -169,7 +169,7 @@ header, main{
 
 /* p2 */
 .circle-container{
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,16 +177,16 @@ header, main{
     height: 463px; /* Adjust the size as needed */
     border-radius: 50%;
     border: 15px solid red; /* Adjust the border size and color */
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 50px;
 }
 .circle-container img{
-    width: 364px;
-    height: 364px;
+    /* width: 364px; */
+    /* height: 364px; */
     width: 100%;
     height: 100%;
     /* object-fit: cover; */
-    border-radius: 50%;
+    /* border-radius: 50%; */
     
 }
 
@@ -194,6 +194,7 @@ header, main{
 .rmain-container{
     width: 276px;
     height: 353px;
+    margin-left: 18px;
 }
 
 .ryear-container{
@@ -285,10 +286,11 @@ header, main{
 }
 
 .gift-img{
+    display: flex;
     flex-wrap: wrap;
+    gap: 24px;
 }
 .gift-img img{
-    gap: 24px;
     width: 424px;
     height: 450px;
 }
@@ -333,7 +335,7 @@ header, main{
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 30px 0 0 30px;
-    outline: none;
+    /* outline: none; */
     font-size: 16px;
     width: 250px;
 }
@@ -345,7 +347,7 @@ header, main{
     font-size: 16px;
     border-radius: 0 30px 30px 0;
     cursor: pointer;
-    outline: none;
+    /* outline: none; */
 }
 
 /* footer-contener */
